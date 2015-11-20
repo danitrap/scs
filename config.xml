@@ -38,7 +38,7 @@
   <gap:plugin name="org.apache.cordova.device" version="0.2.12"/>
   <gap:plugin name="org.apache.cordova.geolocation" version="0.3.10"/>
   <gap:plugin name="org.apache.cordova.globalization" version="0.3.1"/>
-  <gap:plugin name="org.apache.cordova.inappbrowser" version="0.5.2"/>
+  <gap:plugin name="cordova-plugin-inappbrowser" source="npm" />
   <platform name="android">
     <icon src="resources/android/icon/drawable-ldpi-icon.png" density="ldpi"/>
     <icon src="resources/android/icon/drawable-mdpi-icon.png" density="mdpi"/>
