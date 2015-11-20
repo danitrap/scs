@@ -1,0 +1,13 @@
+<ion-view title="{{'itinerari' | translate}}">
+  <ion-content class="padding">
+    <div class="list">
+      <a class="item path" ng-repeat="path in paths" href="#/tab/path/{{path.id}}/info" style="{{path.css}}">
+        <h2>{{path.name}}</h2>
+        <div class="meta">
+          <h4><i class="icon ion-clock"></i> {{path.time}}</h4>
+          <h4><i class="icon ion-trophy"></i> {{path.difficulty}}</h4>
+        </div>
+      </a>
+    </div>
+  </ion-content>
+</ion-view>

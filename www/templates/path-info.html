@@ -1,0 +1,16 @@
+<ion-view title="{{path.name}}">
+  <ion-content has-header="true" padding="true">
+    <img src="img/paths/{{path.id}}/path.png" class="path-image" alt="">
+    <h3>{{'fermate' | translate}}</h3>
+    <div class="list" ng-repeat="PoI in path.pointsOfInterest">
+      <a class="item" href="#/tab/path/{{path.id}}/PoI/{{$index}}">{{$index+1}} - {{PoI.name}}</a>
+    </div>
+    <h3>{{'consigli' | translate}}</h3>
+    <p ng-bind-html="path.suggestionsFull"></p>
+    <h3>{{'difficolta' | translate}}</h3>
+    <p ng-bind-html="path.difficultyFull"></p>
+    <h3>{{'tempo_di_percorrenza' | translate}}</h3>
+    <p ng-bind-html="path.timeFull"></p>
+
+  </ion-content>
+</ion-view>

@@ -1,0 +1,7 @@
+<ion-view title="{{PoI.name}}">
+  <ion-content has-header="true" padding="true">
+    <h2>{{PoI.name}}</h2>
+    <p ng-bind-html="PoI.description"></p>
+    <img class="poi" src="{{image}}" alt="" ng-repeat="image in PoI.images">
+  </ion-content>
+</ion-view>

@@ -1,0 +1,107 @@
+/* Empty. Add your own CSS if you like */
+.logo {
+  max-width: 70%;
+  margin: 0 auto;
+  display: block;
+}
+
+.lead {
+  font-size: 20px;
+  line-height: 1.3;
+}
+
+.centered {
+  text-align: center;
+}
+
+.p-margin {
+  margin-bottom: 10px;
+}
+
+.ctas a {
+  width: 100%;
+}
+
+.loghi h6 {
+  font-weight: bold;
+  text-align: center;
+  margin: 0 0 10px;
+}
+
+.loghi img {
+  max-width: 100%;
+}
+
+.loghi .bigger {
+  max-width: 70%;
+}
+
+.blu {
+  color: #0404FF;
+}
+
+.loghi .fit-text {
+  max-width: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+.loghi .eu {
+  margin: 0;
+}
+
+.loghi p {
+  font-size: x-small;
+  line-height: 1;
+  text-align: center;
+  font-weight: bold;
+}
+
+.list .path {
+  position: relative;
+  height: 200px;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+
+.list .path h2 {
+  display: block;
+  padding: 10px;
+  max-width: 90%;
+  color: #e0e0e0;
+  background: rgba(0,0,0,0.5);
+  white-space: normal;
+  font-size: large;
+}
+
+.list .path .meta {
+  position: absolute;
+  bottom: 20px;
+  display: block;
+  width: 90%;
+}
+
+.list .path h4 {
+  display: block;
+  padding: 5px;
+  color: #e0e0e0;
+  background: rgba(0,0,0,0.5);
+  width: 55%;
+}
+
+img.poi {
+  max-width: 100%;
+}
+
+map {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.scroll {
+  height: 100%;
+}
+
+.path-image {
+  width: 100%;
+}
