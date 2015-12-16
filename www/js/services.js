@@ -76,7 +76,7 @@ angular.module('starter.services', [])
             name: "Eremo San Felice",
             description: "L'Eremo di San Felice è un delizioso rifugio completamente immerso nella natura che offre servizi di accoglienza ed ospitalità a gruppi, comitive, famiglie e semplici escursionisti.Il rifugio è posto in una splendido pianoro a quota 540 metri sul livello del mare, all'interno della Riserva Naturale di Pizzo Cane, Pizzo Trigna e Grotta Mazzamuto e nei pressi di quella di Monte San Calogero.La struttura, interamente restaurata, ancora oggi è adibita ad Eremo.",
             images: [
-              "img/paths/1/5/0.jpg"
+              "img/paths/1/4/0.jpg"
             ],
             /*lat: 37.881844,
             long: 13.377663*/
@@ -86,7 +86,7 @@ angular.module('starter.services', [])
             name: "Grotta vicino Eremo San Felice",
             description: "",
             images: [
-              "img/paths/1/6/0.jpg"
+              "img/paths/1/5/0.jpg"
             ],
             /*lat: 37.881915,
             long: 13.377066*/
